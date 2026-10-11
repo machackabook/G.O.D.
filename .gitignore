@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sparsebundle/
+node_modules/
+.npm/
+private/
+secrets/

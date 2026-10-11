@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "G.O.D. Browser Companion",
+  "version": "5.0.1",
+  "description": "Read-only capability bridge for the verified GOD public route; no tabs or host permissions.",
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "options_page": "options.html",
+  "externally_connectable": {
+    "matches": [
+      "https://machackabook.github.io/*"
+    ]
+  }
+}

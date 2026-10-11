@@ -1,0 +1,10 @@
+{
+  "name": "G.O.D. \u2022 Governing Obedience Divisor",
+  "short_name": "G.O.D.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A0A1F",
+  "theme_color": "#0A0A1F",
+  "description": "Nexus public browser capability and evidence gateway"
+}
