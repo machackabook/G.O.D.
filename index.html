@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0A0A1F" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
+<link rel="manifest" href="./manifest.webmanifest" />
+<link rel="stylesheet" href="./style.css" />
+<title>G.O.D. | Browser Capability Gate</title>
+</head>
+<body>
+<header>
+  <div class="eyebrow">GAIA / NEXUS / EVIDENCE FIRST</div>
+  <h1>G.O.D. <span>∴ Governing Obedience Divisor</span></h1>
+  <p>Independent browser-capability gateway • local evidence • explicit user consent</p>
+</header>
+<main>
+ <section class="panel"><div class="section-heading"><h2>01 / Browser capability matrix</h2><button id="refresh">Reinspect</button></div><p class="hint">Detection establishes browser support, not user permission. Nothing is marked VERIFIED until an actual operation returns.</p><div id="matrix" aria-live="polite">Inspecting real browser capabilities…</div></section>
+ <section class="panel"><h2>02 / Real, opt-in verification</h2><p class="hint">Each control requires a deliberate click and respects native browser permission dialogs.</p><div class="controls"><button id="audio">Test audio graph</button><button id="mic">Test microphone permission</button><button id="screen">Test screen capture</button><button id="wake">Toggle wake lock</button></div><output id="action-status" aria-live="polite">No operation requested.</output></section>
+ <section class="panel"><h2>03 / Chrome companion (optional)</h2><p class="hint">Only works with a separately installed desktop Chrome extension from <code>extension/</code>. Does not open or alter chrome:// flags, nor read tabs.</p><div class="controls"><input id="extension-id" aria-label="Extension ID" placeholder="Paste installed extension ID (32 letters)" maxlength="32" autocomplete="off"><button id="ping">Verify companion</button><button id="platform">Platform metadata</button></div><output id="extension-status" aria-live="polite">Not connected.</output></section>
+ <section class="panel"><div class="section-heading"><h2>04 / Local receipt chain</h2><button id="export">Export receipts</button></div><p class="hint">Locally hash-chained receipts. Not immutable server audit, not signatures. No raw microphone/screen content is captured or logged.</p><pre id="ledger">No receipts.</pre></section>
+</main>
+<footer>G.O.D. v5.0.1 • Classic Nexus: <b>cyan</b> / <strong>violet</strong> / <em>gold</em> • Unverified features are never represented as production-ready.</footer>
+<script type="module" src="./app.mjs"></script>
+</body></html>
