@@ -13,6 +13,10 @@ G.O.D. is a capability-verifying, consent-gated supervisory interface for browse
 - `tests/`: Node static contract tests.
 - `publish-termux.sh`: publish **only after you personally authenticate gh**; no force push and no overwrite of unrelated repositories.
 
+## Consensus integration boundary
+
+The public interface contract for CRYPTIC production gates is documented in [`docs/CRYPTIC-PRODUCTION-GATE-INTEGRATION.md`](docs/CRYPTIC-PRODUCTION-GATE-INTEGRATION.md). It records the GOD trust-root, independent sequence-anchor, GAIA-JUSTICE, remote-signing, validator-custody, and durability requirements while preserving the boundary: this browser project does not issue consensus authorization or claim that external production services are live.
+
 ## Install / deploy
 
 Install **GitHub CLI (`gh`)**, Git, and Node.js in Termux if missing, authenticate through `gh auth login`, then run `bash ./publish-termux.sh`.
